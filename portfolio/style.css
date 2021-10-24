@@ -1,0 +1,166 @@
+/*Обнуление*/
+/* line 2, ../../prod/all_css/hellosass/hellosass/#source/scss/nullstyle.scss */
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+  }
+  *, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  /* line 4, ../../prod/all_css/hellosass/hellosass/#source/scss/nullstyle.scss */
+  :focus, :active {
+    outline: none;
+  }
+  /* line 5, ../../prod/all_css/hellosass/hellosass/#source/scss/nullstyle.scss */
+  a:focus, a:active {
+    outline: none;
+  }
+  /* line 6, ../../prod/all_css/hellosass/hellosass/#source/scss/nullstyle.scss */
+  nav, footer, header, aside {
+    display: block;
+  }
+  /* line 7, ../../prod/all_css/hellosass/hellosass/#source/scss/nullstyle.scss */
+  html, body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+  }
+  /* line 8, ../../prod/all_css/hellosass/hellosass/#source/scss/nullstyle.scss */
+  input, button, textarea {
+    font-family: inherit;
+  }
+  /* line 9, ../../prod/all_css/hellosass/hellosass/#source/scss/nullstyle.scss */
+  input::-ms-clear {
+    display: none;
+  }
+  /* line 10, ../../prod/all_css/hellosass/hellosass/#source/scss/nullstyle.scss */
+  button {
+    cursor: pointer;
+  }
+  /* line 11, ../../prod/all_css/hellosass/hellosass/#source/scss/nullstyle.scss */
+  button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+  }
+  /* line 12, ../../prod/all_css/hellosass/hellosass/#source/scss/nullstyle.scss */
+  a, a:visited {
+    text-decoration: none;
+  }
+  /* line 13, ../../prod/all_css/hellosass/hellosass/#source/scss/nullstyle.scss */
+  a:hover {
+    text-decoration: none;
+  }
+  /* line 14, ../../prod/all_css/hellosass/hellosass/#source/scss/nullstyle.scss */
+  ul li {
+    list-style: none;
+  }
+  /* line 15, ../../prod/all_css/hellosass/hellosass/#source/scss/nullstyle.scss */
+  img {
+    vertical-align: top;
+  }
+  /* line 16, ../../prod/all_css/hellosass/hellosass/#source/scss/nullstyle.scss */
+  h1, h2, h3, h4, h5, h6 {
+    font-size: inherit;
+    font-weight: inherit;
+  }
+
+  *{
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 1200px;
+    margin:0 auto;
+  }
+.content{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 900px;
+  position: relative;
+}
+
+.head{
+    background-color: #343A40;
+    text-align: center;
+    width: 100%;
+    position: sticky;
+    top: 0;
+}
+.navi{
+    text-align: center;
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+a{
+    margin: 0 5px;
+    margin-right: 20px;
+    text-decoration: none;
+    color:#fff;
+}
+
+.portfolio{
+    background-color: #E9ECEF;
+    flex: 1 1 auto;
+}
+h1{
+    font-size: 42px;
+    margin: 70px 0px 5px 55px;
+}
+.portfolio.title{
+    font-size: 42px;
+    margin: 20px 55px;
+}
+.portfolio-text {
+    font-size: 34px;
+    margin: 20px 55px;
+}
+.portfolio-button{
+    font-size: 24px;
+    border: 1px solid ;
+    border-radius: 4px;
+    width: 201px;
+    height: 48px;
+    margin-left: 55px;
+    margin-bottom: 56px;
+    background-color: #007BFF;
+}
+
+.foot{
+  align-items: center;
+}
+
+.lorem{
+  font-size: 40px;
+}
+/*
+@media (max-width: 1200px){
+    .cont, .head {
+        max-width:970px;
+    }
+}
+    
+@media (max-width:992px) {
+    .cont, .head{
+        max-width: 750px;
+    }
+}
+
+@media ( max-width:767px) {
+    .cont, .head{
+        max-width: 500px;
+    }
+}
+@media (max-width:376px){
+    .cont, .head{
+        max-width: none;
+    }
+}
