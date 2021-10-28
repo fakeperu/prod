@@ -1,24 +1,31 @@
-.btn{
-    width: 25px;
-  height: 15px;
-  border: 10px solid blue;
-  background-color: blue;
-  color: white;
-  margin-bottom: 20px;
+body{
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
 }
-.btn2{
-    width: 25px;
-  height: 15px;
-  border: 10px solid blue;
-  background-color: blue;
-  color: white;
-  margin-bottom: 20px;
+.text{
+    height: 140px;
+    text-align: center;
+    padding-top: 50px;
 }
-.btn3{
+.input{
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px ;
+}
+
+.buttons{
+    display: flex;
+    margin: 0 auto;
+    flex-direction: row;
+}
+.btn,.btn3, .btn2, .btn4 , .btn5{
     width: 25px;
   height: 15px;
   border: 10px solid blue;
   background-color: blue;
   color: white;
   margin-bottom: 20px;
+  margin-left: 10px;
 }
