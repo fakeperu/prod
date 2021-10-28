@@ -9,8 +9,8 @@
 </head>
 <body>
     <div class="text">Это всратый калькулятор!</div>
-    <div class="input">Число 1  <input class="input1" type="text" required></div>
-    <div class="input">Число 2  <input class="input2" type="text" required></div>
+    <div class="input">Число 1  <input class="input1" onkeypress="return (event.charCode >= 48 && event.charCode <= 57 && /^\d{0,3}$/.test(this.value));"></div>
+    <div class="input">Число 2  <input class="input2" onkeypress="return (event.charCode >= 48 && event.charCode <= 57 && /^\d{0,3}$/.test(this.value));"></div>
     <div class="buttons">
         <div class="btn">+</div>
         <div class="btn2">-</div>
@@ -20,6 +20,9 @@
         <div class="btn6">Clear</div>
     </div>
     <div class="otvet">Здесь будет ответ</div>
+
+    
+
     <script src="script.js"></script>
 </body>
 </html>

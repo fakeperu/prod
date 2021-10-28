@@ -3,6 +3,7 @@ body{
     text-align: center;
     display: flex;
     flex-direction: column;
+    background-color: cornsilk;
 }
 .text{
     height: 140px;
@@ -23,8 +24,9 @@ body{
 .btn,.btn3, .btn2, .btn4 , .btn5, .btn6{
     width: 25px;
   height: 15px;
-  border: 10px solid blue;
-  background-color: blue;
+  border: 10px solid rgb(44, 146, 206);
+  background-color:rgb(44, 146, 206);
+  border-radius: 15px;
   color: white;
   margin-bottom: 20px;
   margin-left: 10px;

@@ -1,11 +1,9 @@
-
 document.querySelector('.btn').addEventListener('click', calc1);
 document.querySelector('.btn2').addEventListener('click', calc2);
 document.querySelector('.btn3').addEventListener('click', calc3);
 document.querySelector('.btn4').addEventListener('click', calc4);
 document.querySelector('.btn5').addEventListener('click', calc5);
 document.querySelector('.btn6').addEventListener('click', clearInput);
-
 
 function calc1() {
     let a = +document.querySelector('.input1').value;
