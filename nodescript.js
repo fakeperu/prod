@@ -1,4 +1,4 @@
-calc(1,3,'+')
+calc(1,3,'-')
 
 function calc(a,b,c) {
     if ( isNaN(a)==true || isNaN(b)==true ) {
