@@ -4,6 +4,9 @@ document.querySelector('.btn2').addEventListener('click', calc2);
 document.querySelector('.btn3').addEventListener('click', calc3);
 document.querySelector('.btn4').addEventListener('click', calc4);
 document.querySelector('.btn5').addEventListener('click', calc5);
+document.querySelector('.btn6').addEventListener('click', clearInput);
+
+
 function calc1() {
     let a = +document.querySelector('.input1').value;
     let b = +document.querySelector('.input2').value;
@@ -46,7 +49,6 @@ function calc2() {
     }
     else console.log('poputal bratok');
 }
-
 function calc3() {
     let a = +document.querySelector('.input1').value;
     let b = +document.querySelector('.input2').value;
@@ -87,7 +89,6 @@ function calc4() {
     }
     else console.log('poputal bratok');
 }
-
 function calc5() {
     let a = +document.querySelector('.input1').value;
     let b = +document.querySelector('.input2').value;
@@ -107,4 +108,8 @@ function calc5() {
         document.querySelector('.otvet').innerHTML='Ответ - ' + a%b ;
     }
     else console.log('poputal bratok');
+}
+function clearInput() {
+    document.querySelector('.input1').value='';
+    document.querySelector('.input2').value='';
 }

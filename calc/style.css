@@ -20,7 +20,7 @@ body{
     margin: 0 auto;
     flex-direction: row;
 }
-.btn,.btn3, .btn2, .btn4 , .btn5{
+.btn,.btn3, .btn2, .btn4 , .btn5, .btn6{
     width: 25px;
   height: 15px;
   border: 10px solid blue;
