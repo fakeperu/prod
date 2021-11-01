@@ -1,8 +1,8 @@
 function calc(num1, num2, action) {
-    if ( typeof num1 !== 'number' || typeof num2 !== 'number'|| isNaN(num1)==true || isNaN(num2)==true ) {
+    if ( typeof num1 !== 'number' || typeof num2 !=='number'|| isNaN(num1)===true || isNaN(num2)===true ) {
         return('Калькулятор для чисел! Оставьте свои грязные шуточки!');
         }
-    if ( !num1 || !num2 || action=='' ){
+    if ( !num1 || !num2 || action==='' ){
         return('error!За пустые поля накажу');
     }
     if (action==='+')   {
