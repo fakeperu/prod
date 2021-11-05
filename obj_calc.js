@@ -10,8 +10,8 @@ function calc (operation,num1,num2) {
     if (isNaN(num1)||isNaN(num2)|| typeof(num1)!=='number'||typeof(num2)!=='number'){ //если num1 или num2 не являются числом, то программа прервется с ошибкой 
          return "incorrected input";
     }
-    else if (operation in operations) { //operation (что мы передаем внизу) присутствует в массиве operations - получаем true 
-        return operations[operation];
+    else if (operation in operations) { //operation (что мы передаем аргументом) присутствует в массиве operations - получаем true 
+        return operations[operation];   
     }
     else {                              //такой operation в массиве нет - получаем ошибку
         return 'error';
