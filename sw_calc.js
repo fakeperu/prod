@@ -3,7 +3,7 @@ function isOk(num1,num2){
 }
 
 function mathPart (num1,num2,action) {
-switch (action){
+    switch (action){
     case '+': 
         return (num1 + num2);
     case '-':
